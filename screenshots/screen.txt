@@ -1,8 +1,0 @@
-# PowerShell Environment Monitoring & Alerting
-
-## Overview
-This project is a PowerShell-based environment monitoring tool designed to track the availability of domain-joined systems in a Windows Active Directory lab. It performs automated connectivity checks and sends real-time email alerts when critical systems become unreachable.
-
-The solution simulates a small enterprise environment to demonstrate proactive monitoring, automation, and basic incident alerting.
-
----

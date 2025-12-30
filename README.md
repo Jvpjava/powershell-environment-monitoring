@@ -45,7 +45,7 @@ The Domain Controller is treated as a critical system expected to remain online 
 - MailKit / MimeKit
 - SMTP (Gmail)
 - CSV-based configuration
-- Secure credential storage (Clixml)
+- Secure credential storage (Clixml) - Will not upload this file
 
 ---
 

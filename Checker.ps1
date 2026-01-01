@@ -19,7 +19,7 @@ try {
 $ComputerNamePath = "C:\Users\junio\Desktop\Powershell Projects\Enviorment Checker\EnviormentChecker.csv"
 $ComputerNameList = Import-Csv -Path $ComputerNamePath
 
-#wfiv eumv vpjs viey
+
 #Get-Credential | Export-Clixml -Path 'C:\Users\junio\Desktop\Powershell Projects\Enviorment Checker\gmail.xml'
 $Account = Import-Clixml -Path "C:\Users\junio\Desktop\Powershell Projects\Enviorment Checker\gmail.xml"
 
@@ -75,6 +75,7 @@ Please investigate the connectivity status of this machine immediately. `n
         }
     }
 }
+
 
 
 

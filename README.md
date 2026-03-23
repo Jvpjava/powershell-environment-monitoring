@@ -14,6 +14,7 @@ The solution simulates a small enterprise environment to demonstrate proactive m
 
 The Domain Controller is treated as a critical system expected to remain online continuously to provide authentication, DNS, and directory services.
 
+<p align="center"><img src="screenshots/1. Powershell Enviorment Monitoring Topology.png" width="700"></p>
 ---
 
 ## Features

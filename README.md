@@ -72,7 +72,7 @@ This project demonstrates how IT support and systems administrators can:
 - Credentials are stored securely using encrypted Clixml
 - No plaintext passwords are included
 - Example credential file is provided for reference only
-<p align="center"><img src="screenshots/5.Gmail Encryption.png" width="700"></p>
+<p align="center"><img src="screenshots/5. Gmail Encryption.png" width="700"></p>
 ---
 
 ## Future Improvements

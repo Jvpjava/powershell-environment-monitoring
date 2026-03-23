@@ -2,6 +2,8 @@
 This project is a PowerShell-based environment monitoring tool designed to track the availability of domain-joined systems in a Windows Active Directory lab. It performs automated connectivity checks and sends real-time email alerts when critical systems become unreachable.
 The solution simulates a small enterprise environment to demonstrate proactive monitoring, automation, and basic incident alerting.
 
+<p align="center"><img src="screenshots/1. Powershell Enviorment Monitoring Topology.png" width="900"></p>
+
 ---
 
 ## Environment
@@ -14,7 +16,7 @@ The solution simulates a small enterprise environment to demonstrate proactive m
 
 The Domain Controller is treated as a critical system expected to remain online continuously to provide authentication, DNS, and directory services.
 
-<p align="center"><img src="screenshots/1. Powershell Enviorment Monitoring Topology.png" width="900"></p>
+<p align="center"><img src="screenshots/2. VM machines.png" width="900"></p>
 ---
 
 ## Features
@@ -29,13 +31,19 @@ The Domain Controller is treated as a critical system expected to remain online 
 
 ## How It Works
 1. Reads a list of computer names from a CSV file
-2. Pings each system using `Test-Connection`
-3. Detects offline or unreachable devices
-4. Sends an email alert identifying:
+<p align="center"><img src="screenshots/3. Excel Computer Names.png" width="700"></p>
+3. Pings each system using `Test-Connection`
+<p align="center"><img src="screenshots/4. Ping Code.png" width="700"></p>
+4. Detects offline or unreachable devices
+<p align="center"><img src="screenshots/Powershell-Output.png" width="700"></p>
+5. Sends an email alert identifying:
    - Affected device
    - Status
    - Time of detection
-5. Cleans up SMTP connections safely after execution
+   <p align="center"><img src="screenshots/Gmail-Message1.png" width="700"></p>
+     <p align="center"><img src="screenshots/Gmail-Message2.png" width="700"></p>
+       <p align="center"><img src="screenshots/Gmail-Message3.png" width="700"></p>
+6. Cleans up SMTP connections safely after execution
 
 ---
 
@@ -64,7 +72,7 @@ This project demonstrates how IT support and systems administrators can:
 - Credentials are stored securely using encrypted Clixml
 - No plaintext passwords are included
 - Example credential file is provided for reference only
-
+<p align="center"><img src="screenshots/5. Gmail Encryption" width="700"></p>
 ---
 
 ## Future Improvements
